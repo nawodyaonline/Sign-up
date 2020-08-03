@@ -34,7 +34,7 @@ app.post('/', (req, res) => {
 
     const options = {
         method: 'POST',
-        auth: 'Nawodya:dab51238394b222c5ab49a597697af31-us17',
+        auth: 'Nawodya:{API Key}'
     }
 
     const request = https.request(url, options, function(response) {
